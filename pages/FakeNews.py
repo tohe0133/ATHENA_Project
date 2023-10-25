@@ -181,7 +181,7 @@ keywordHelp = "YAKE (Yet Another Keyword Extractor) is a text analysis tool that
 if prompt := st.chat_input("Enter the full text of the article you want to analyze here"):
     if prompt:
         # Creates models
-        DATA_PATH = "models/"
+        DATA_PATH = "/mount/src/athena_project/models/"
         mod = open(DATA_PATH + model_select + vec_select + ".pkl", 'rb')
         vec = open(DATA_PATH+ vec_select+ ".pkl", 'rb')
         model = pickle.load(mod)
