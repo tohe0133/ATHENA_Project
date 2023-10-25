@@ -139,7 +139,7 @@ with col1:
              are effective for binary classification, and are good in separating classes in high-dimensional spaces. 
              They handle non-linear text data relationships using kernel tricks and may offer robust generalization 
              in fake news detection. [Learn More](https://towardsdatascience.com/support-vector-machines-for-classification-fc7c1565e3)
-             \n*The model accuracy for BoW is* 93% *and for TFIDF the accuracy is* 94%  \n\n  **GXBoost**, short for eXtreme Gradient Boosting, 
+             \n*The model accuracy for BoW is* 93% *and for TFIDF the accuracy is* 94%  \n\n  **XGBoost**, short for eXtreme Gradient Boosting, 
             iteratively builds models, correcting errors made by previous ones, to create a strong combined model for 
             accurate predictions through a step-by-step approach. [Learn More](https://www.nvidia.com/en-us/glossary/data-science/xgboost/)
             \n*The model accuracy for BoW is* 93% *and for TFIDF the accuracy is* 93%  \n\n **Naive Bayes**  calculates event probability based 
