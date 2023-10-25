@@ -54,7 +54,7 @@ st.markdown("This site was made as a student project by four master students dur
 
 st.markdown(
             "You can contact us via Email: \n\n Imme Bergman: gusbergim@student.gu.se  \n Lisa Müller: guslismu@student.gu.se  "
-            "\n Martin Lindén: @student.gu.se  \nTobias Hermansson: gushertoc@student.gu.se")
+            "\n Martin Lindén: gusllimlma@student.gu.se  \nTobias Hermansson: gushertoc@student.gu.se")
 
 st.title("Used Dataset")
 st.markdown("The dataset contains a collection of 79,000 articles, which are divided into two categories: 'true' and "
