@@ -135,7 +135,7 @@ with col1:
              \n  **Logistic Regression**, a simple and interpretable binary classification model, assesses the 
              probability of text inputs being fake or real. Valuable for transparently analyzing features. 
              [Learn More](https://towardsdatascience.com/logistic-regression-for-binary-classification-56a2402e62e6)  
-             \n*The model accuracy for BoW is* 93% *and for TFIDF the accuracy is* 94%.  \n\n  **Support Vector Machine** Support Vector Machines (SVMs) 
+             \n*The model accuracy for BoW is* 93% *and for TFIDF the accuracy is* 94%  \n\n  **Support Vector Machine** Support Vector Machines (SVMs) 
              are effective for binary classification, and are good in separating classes in high-dimensional spaces. 
              They handle non-linear text data relationships using kernel tricks and may offer robust generalization 
              in fake news detection. [Learn More](https://towardsdatascience.com/support-vector-machines-for-classification-fc7c1565e3)
