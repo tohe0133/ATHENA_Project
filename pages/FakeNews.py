@@ -157,7 +157,7 @@ with col2:
     # Dropdown menu to choose an option
     vec_select = st.selectbox(
         "What vectorizer would you like to use?",
-        ("TFIDF", "Bag of Words"),
+        ("TFIDF", "Bag Of Words"),
         help="""**Vectorizers** convert text into numerical representations for the models to analyze text data more 
         effectively. For you as a user this the choice of vectorization method has implications for model accuracy, 
         computational efficiency, interpretability.  
@@ -187,7 +187,7 @@ if prompt := st.chat_input("Enter the full text of the article you want to analy
         # Creates models
         DATA_PATH = "/mount/src/athena_project/models/"
         mod = open(DATA_PATH + model_select + vec_select + ".pkl", 'rb')
-        vec = open(DATA_PATH + vec_select+ ".pkl", 'rb')
+        vec = open(DATA_PATH + vec_select + ".pkl", 'rb')
         model = pickle.load(mod)
         vector = pickle.load(vec)
 
