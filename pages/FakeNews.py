@@ -157,14 +157,14 @@ with col2:
     # Dropdown menu to choose an option
     vec_select = st.selectbox(
         "What vectorizer would you like to use?",
-        ("TFIDF", "Bag Of Words"),
+        ("TFIDF", "Bag of Words"),
         help="""**Vectorizers** convert text into numerical representations for the models to analyze text data more 
         effectively. For you as a user this the choice of vectorization method has implications for model accuracy, 
         computational efficiency, interpretability.  
              \n  **TF-IDF** (Term Frequency-Inverse Document Frequency) transforms text into numerical data by ranking 
              word importance within a document compared to a collection. It is able to identify unique keywords and 
              anomalies. [Learn More](https://towardsdatascience.com/tf-idf-simplified-aba19d5f5530)
-             \n**Bag of Words** Bag of Words turns text into a numerical representation by comparing the text at hand with 
+             \n**Bag Of Words** Bag of Words turns text into a numerical representation by comparing the text at hand with 
         a dictionary and counting the occurrence of each word of the dictionary in the given text, without considering 
         the order or structure of the sentences. 
         [Learn More](https://towardsdatascience.com/a-simple-explanation-of-the-bag-of-words-model-b88fc4f4971)""",
