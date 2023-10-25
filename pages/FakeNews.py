@@ -8,6 +8,8 @@ import yake
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.stem import 	WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import accuracy_score
 
 
 ## download the dictionary for stopwords
