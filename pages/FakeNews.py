@@ -236,7 +236,7 @@ if prompt := st.chat_input("Enter the full text of the article you want to analy
                 st.markdown(f'<p class="big-font">True or False?</p> ', help="This displays how sure the model "
                                                                              "is about if the article is true or false",
                             unsafe_allow_html=True)
-                st.markdown(f':warning: The Support Vector Machine model is not able to give a confidence!')
+                st.markdown(f'⚠️ The Support Vector Machine model is not able to give a confidence!')
                 st.markdown(
                     f':thumbsup: This model thinks the text is true.')
                 st.markdown(f'<p class="big-font">Keywords</p>', help=keywordHelp, unsafe_allow_html=True)
@@ -267,7 +267,7 @@ if prompt := st.chat_input("Enter the full text of the article you want to analy
             else:
                 st.markdown(f'<p class="big-font">True or False?</p> ', help = "This displays how sure the model "
                                                                                "is about if the article is true or false",unsafe_allow_html=True)
-                st.markdown(f':warning: The Support Vector Machine model is not able to give a confidence!')
+                st.markdown(f'⚠️ The Support Vector Machine model is not able to give a confidence!')
                 st.markdown(f':thumbsdown: This model thinks the text is false.')
                 st.markdown(f'<p class="big-font">Keywords</p>', help = keywordHelp,unsafe_allow_html=True)
                 st.markdown(f'The keywords are: {keywordOutput}', unsafe_allow_html=True)
