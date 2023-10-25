@@ -46,6 +46,7 @@ regex
 requests
 rich
 rpds-py
+scikit-learn
 segtok
 setuptools
 six
