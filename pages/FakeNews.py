@@ -10,7 +10,7 @@ from nltk.stem import 	WordNetLemmatizer
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.metrics import make_scorer
+from sklearn.metrics import make_scorer, scorer
 
 
 ## download the dictionary for stopwords
