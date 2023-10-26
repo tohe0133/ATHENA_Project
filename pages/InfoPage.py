@@ -37,7 +37,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title("About the project")
 
 st.markdown("This site was made as a student project by four master students during the course TIA400, Introduction to "
-            "Human-centered AI. The work is collaboration between Gothenburg University and the Research Institute "
+            "Human-centered AI. The work is a collaboration between Gothenburg University and the Research Institute "
             "of Sweden (RISE) for the ATHENA project. The ATHENA project is a EU project between 14 organizations "
             "and 11 countries.  \n\n'The main aim of ATHENA is to contribute to the protection of democratic processes in "
             "the European Union (EU) against foreign information manipulation and interference (FIMI). "
@@ -57,7 +57,7 @@ st.markdown(
             "\n Martin Lindén: gusllimlma@student.gu.se  \nTobias Hermansson: gushertoc@student.gu.se")
 
 st.title("Used Dataset")
-st.markdown("The dataset contains a collection of 79,000 articles, which are divided into two categories: 'true' and "
+st.markdown("In order to train our models we used a dataset containing a collection of 79,000 articles, which are divided into two categories: 'true' and "
             "'misinformation, fake news, or propaganda'.")
 st.write(''' 
 - 'True' Articles: There are 34,975 articles labeled as 'true'. These articles are sourced from reputable sources like 
