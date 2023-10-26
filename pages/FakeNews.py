@@ -76,12 +76,15 @@ def optimized_preprocess(texts): # Takes in a list of texts, i.e. the entire cor
         result.append(" ".join(tokens))
     return result
 
+# Retrieve the OpenAI API key from Streamlit secrets
+api_key = st.secrets["openai"]["api_key"]
+
 def GPTExplain(text):
     # API endpoint and headers
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": f"Bearer {api_key}"
     }
 
     # Payload for GPT API

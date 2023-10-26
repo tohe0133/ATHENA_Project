@@ -2,12 +2,16 @@ import streamlit as st
 from streamlit_chat import message
 import requests
 
+# Retrieve the OpenAI API key from Streamlit secrets
+api_key = st.secrets["openai"]["api_key"]
+
+
 def callGPT():
     # API endpoint and headers
     url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer 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"
+        "Authorization": f"Bearer {api_key}"
     }
 
     # Payload for GPT API
