@@ -108,7 +108,8 @@ st.markdown("**Random Forest** \n\n"
 st.markdown("**BERT** \n\n"
             "Language models like BERT are powered by deep learning, a type of artificial intelligence based on neural networks. These neural networks consist of layers upon layers of interconnected nodes, each contributing to the model's understanding of language. "
 "BERT reads sentences in a unique way. Instead of reading word by word from left to right, it considers the entire sentence at once. This “bidirectional” approach helps BERT grasp the context and meaning of words more accurately, making it a powerful tool for various language tasks like translation, question-answering, and more. "
-"However, the complex interplay of nodes and weights within the network makes it challenging to pinpoint exactly how BERT arrives at a particular understanding or answer, making it a black box.")
+"However, the complex interplay of nodes and weights within the network makes it challenging to pinpoint exactly how BERT arrives at a particular understanding or answer, making it a black box.\n\n")
+"*Metrics*: accuracy = 99%, F1 = 99%, precision = 98%, recall = 99%"
 
 
 
