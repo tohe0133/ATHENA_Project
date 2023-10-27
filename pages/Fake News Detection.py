@@ -175,18 +175,15 @@ with col2:
 
 vec_select = vec_select.replace(" ","")
 
-SentHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment with positive, neutral, negative, and " \
-           "overall emotionality scores (-1 = most negative and +1 = most positive). While proportional scores offer " \
-           "a detailed breakdown, the emotionality score provides nuanced, sometimes differing overall sentiment " \
-           "evaluations by considering emotion intensity and interplay, making it valuable for quick assessments, " \
-           "especially in mixed-sentiment texts. [Learn More](https://medium.com/@mystery0116/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b)"
-
-keywordHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment with positive, neutral, negative, and overall emotionality scores (-1 = most " \
+SentHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment with positive, neutral, negative, and overall emotionality scores (-1 = most " \
               "negative and +1 = most positive). While the proportional scores offer a detailed breakdown, the emotionality score provides nuanced, sometimes " \
               "differing overall sentiment evaluations by considering emotion intensity and interplay, making it valuable for quick assessments, especially in " \
               "mixed-sentiment texts. Looking at the sentiment of a text can lead to a deeper understanding of the author's intentions and can be an indicator " \
-              "for fake news detection (e.g. an overly positive or negative text with high emotionality can be an indicator for persuasion techniques)."
+              "for fake news detection (e.g. an overly positive or negative text with high emotionality can be an indicator for persuasion techniques)." \
+           " [Learn More](https://medium.com/@mystery0116/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b)"
 
+keywordHelp = "YAKE (Yet Another Keyword Extractor) is a text analysis tool that identifies essential keywords by considering word significance and context, aiding in content summarization and information retrieval." \
+              "[Learn More](https://liaad.github.io/yake/)"
 
 if prompt := st.chat_input("Enter the full text of the article you want to analyze here"):
     if prompt:
