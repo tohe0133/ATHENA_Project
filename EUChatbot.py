@@ -57,7 +57,7 @@ if "messages" not in st.session_state:
 if "user_input" not in st.session_state:
     user_input = ""
 
-st.title("EU QnAI.")
+st.title("EUChatbot")
 st.markdown(
     "This is a chatbot that can summerize an EU aritcle or EU legislation. If you post the full text or the title of the article the chatbot will do its best to make a good summary. Afterwards you can ask questions about it or type in 'Quiz' to get a quiz based on the article.")
 
