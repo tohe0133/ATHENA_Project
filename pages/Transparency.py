@@ -72,9 +72,9 @@ st.title("Vectorizer")
 st.markdown( " **Bag of Words** \n\n "
              "Bag of Words turns text into a numerical representation by comparing the text at hand with a dictionary and counting the occurrence of each word of the dictionary in the given text, without considering the order or structure of the sentences.")
 st.markdown(" **TF-IDF** \n\n "
-"TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a method to represent the importance of words in a text. Imagine you have a library of books, and you want to determine the significance of a word in a specific book. If a word appears frequently in that book (high Term Frequency), it might be important. However, if the same word appears often in many other books in the library (making it common across documents), its uniqueness or significance diminishes."
+"TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a method to represent the importance of words in a text. Imagine you have a library of books, and you want to determine the significance of a word in a specific book. If a word appears frequently in that book (high Term Frequency), it might be important. However, if the same word appears often in many other books in the library (making it common across documents), its uniqueness or significance diminishes. "
 
-"In essence, TF-IDF gives words a weight based on how frequently they appear in one text compared to their presence in a collection of texts. Words that are frequent in a specific text but rare in the entire collection get a higher weight, signaling their significance.")
+"In essence, TF-IDF gives words a weight based on how frequently they appear in one text compared to their presence in a collection of texts. Words that are frequent in a specific text but rare in the entire collection get a higher weight, signaling their significance. ")
 
 st.title("Models")
 st.markdown("**Logistic Regression** \n\n"
@@ -84,30 +84,30 @@ st.markdown("**Support Vector Machine** \n\n"
             "A Support Vector Machine (SVM) is a powerful machine learning algorithm for binary classification. It works by finding the optimal hyperplane that best separates two classes in a high-dimensional space. SVMs are effective for fake news detection due to their ability to handle complex, non-linear relationships in text data. They use a kernel trick to transform data into a higher-dimensional space, making it easier to distinguish between real and fake news articles. SVMs are also robust against overfitting and can provide strong generalization performance. This makes them valuable for identifying deceptive content within a noisy and dynamic news landscape, where patterns may not be linear.")
 
 st.markdown("**XGBoost** \n\n"
-            "XGBoost stands for eXtreme Gradient Boosting. It's a method that takes a step-by-step approach to solving a problem. Imagine you're trying to solve a difficult puzzle. Instead of attempting to solve it all at once, you start with one piece, then add another, and another, making corrections as you go, until the picture becomes clearer and you get closer to the solution."
+            "XGBoost stands for eXtreme Gradient Boosting. It's a method that takes a step-by-step approach to solving a problem. Imagine you're trying to solve a difficult puzzle. Instead of attempting to solve it all at once, you start with one piece, then add another, and another, making corrections as you go, until the picture becomes clearer and you get closer to the solution. "
 
-"In the world of data, XGBoost builds one simple model, checks how well it did, then builds another model to improve on the mistakes of the first, and so on. Each new model tries to correct the errors made by the combination of previous models. By continuously learning from mistakes and adding new models, XGBoost eventually creates a strong combined model that can make accurate predictions."
+"In the world of data, XGBoost builds one simple model, checks how well it did, then builds another model to improve on the mistakes of the first, and so on. Each new model tries to correct the errors made by the combination of previous models. By continuously learning from mistakes and adding new models, XGBoost eventually creates a strong combined model that can make accurate predictions. "
 
 "In essence, XGBoost builds solutions incrementally, always learning from past mistakes to make better future decisions.")
 
 
 st.markdown("**Naive Bayes** \n\n"
-            "Naive Bayes is a method that calculates the probability or likelihood of an event based on prior knowledge of conditions that might be related to the event. It's like trying to predict if a team will win a game based on previous game outcomes. If historically the team often wins when playing at home, Naive Bayes would consider that information when predicting the result of a new game played at home."
+            "Naive Bayes is a method that calculates the probability or likelihood of an event based on prior knowledge of conditions that might be related to the event. It's like trying to predict if a team will win a game based on previous game outcomes. If historically the team often wins when playing at home, Naive Bayes would consider that information when predicting the result of a new game played at home. "
 
-"However, what makes it 'naive' is that it assumes each condition (like playing at home, weather, recent performance) influences the outcome independently of the other conditions. It's like saying the advantage of playing at home doesn’t change even if the team has been on a losing streak or if it’s raining."
+"However, what makes it 'naive' is that it assumes each condition (like playing at home, weather, recent performance) influences the outcome independently of the other conditions. It's like saying the advantage of playing at home doesn’t change even if the team has been on a losing streak or if it’s raining. "
 
 "In essence, Naive Bayes predicts outcomes based on historical data, while making the simple assumption that all influencing factors act independently.")
 
 st.markdown("**Random Forest** \n\n"
-            "Imagine a decision tree as a flowchart that asks a series of yes-or-no questions to make a decision. For instance, if you wanted to decide what to wear, a decision tree might start by asking, 'Is it raining?' Depending on your answer, the next question could be about the temperature, and so on. By the end of the questions, the tree helps you pick an outfit."
+            "Imagine a decision tree as a flowchart that asks a series of yes-or-no questions to make a decision. For instance, if you wanted to decide what to wear, a decision tree might start by asking, 'Is it raining?' Depending on your answer, the next question could be about the temperature, and so on. By the end of the questions, the tree helps you pick an outfit. "
 
-"Now, a Random Forest is like gathering a whole group of these decision trees - each with its own slightly different set of questions or way of looking at the data. Not all trees will come to the same conclusion because they might prioritize different aspects of the data."
+"Now, a Random Forest is like gathering a whole group of these decision trees - each with its own slightly different set of questions or way of looking at the data. Not all trees will come to the same conclusion because they might prioritize different aspects of the data. "
 
 "When you use a Random Forest to make a decision, you're essentially getting each tree in this group to cast a vote based on its set of questions. The final decision is made by considering the majority vote from all the trees. Because each tree has its own perspective and they all get a say, the combined decision is often more balanced and accurate than relying on just one tree.")
 
 st.markdown("**BERT** \n\n"
-            "Language models like BERT are powered by deep learning, a type of artificial intelligence based on neural networks. These neural networks consist of layers upon layers of interconnected nodes, each contributing to the model's understanding of language."
-"BERT reads sentences in a unique way. Instead of reading word by word from left to right, it considers the entire sentence at once. This “bidirectional” approach helps BERT grasp the context and meaning of words more accurately, making it a powerful tool for various language tasks like translation, question-answering, and more."
+            "Language models like BERT are powered by deep learning, a type of artificial intelligence based on neural networks. These neural networks consist of layers upon layers of interconnected nodes, each contributing to the model's understanding of language. "
+"BERT reads sentences in a unique way. Instead of reading word by word from left to right, it considers the entire sentence at once. This “bidirectional” approach helps BERT grasp the context and meaning of words more accurately, making it a powerful tool for various language tasks like translation, question-answering, and more. "
 "However, the complex interplay of nodes and weights within the network makes it challenging to pinpoint exactly how BERT arrives at a particular understanding or answer, making it a black box.")
 
 
