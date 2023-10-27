@@ -99,7 +99,7 @@ st.markdown("**Naive Bayes** \n\n"
 "In essence, Naive Bayes predicts outcomes based on historical data, while making the simple assumption that all influencing factors act independently.")
 
 st.markdown("**Random Forest** \n\n"
-            "Imagine a decision tree as a flowchart that asks a series of yes-or-no questions to make a decision. For instance, if you wanted to decide what to wear, a decision tree might start by asking, "Is it raining?" Depending on your answer, the next question could be about the temperature, and so on. By the end of the questions, the tree helps you pick an outfit."
+            "Imagine a decision tree as a flowchart that asks a series of yes-or-no questions to make a decision. For instance, if you wanted to decide what to wear, a decision tree might start by asking, 'Is it raining?' Depending on your answer, the next question could be about the temperature, and so on. By the end of the questions, the tree helps you pick an outfit."
 
 "Now, a Random Forest is like gathering a whole group of these decision trees - each with its own slightly different set of questions or way of looking at the data. Not all trees will come to the same conclusion because they might prioritize different aspects of the data."
 
