@@ -105,6 +105,12 @@ st.markdown("**Random Forest** \n\n"
 
 "When you use a Random Forest to make a decision, you're essentially getting each tree in this group to cast a vote based on its set of questions. The final decision is made by considering the majority vote from all the trees. Because each tree has its own perspective and they all get a say, the combined decision is often more balanced and accurate than relying on just one tree.")
 
+st.markdown("**BERT** \n\n"
+            "Language models like BERT are powered by deep learning, a type of artificial intelligence based on neural networks. These neural networks consist of layers upon layers of interconnected nodes, each contributing to the model's understanding of language."
+"BERT reads sentences in a unique way. Instead of reading word by word from left to right, it considers the entire sentence at once. This “bidirectional” approach helps BERT grasp the context and meaning of words more accurately, making it a powerful tool for various language tasks like translation, question-answering, and more."
+"However, the complex interplay of nodes and weights within the network makes it challenging to pinpoint exactly how BERT arrives at a particular understanding or answer, making it a black box.")
+
+
 
 
 
