@@ -113,7 +113,7 @@ st.markdown("**Random Forest** \n\n"
 "Now, a Random Forest is like gathering a whole group of these decision trees - each with its own slightly different set of questions or way of looking at the data. Not all trees will come to the same conclusion because they might prioritize different aspects of the data. "
 
 "When you use a Random Forest to make a decision, you're essentially getting each tree in this group to cast a vote based on its set of questions. The final decision is made by considering the majority vote from all the trees. Because each tree has its own perspective and they all get a say, the combined decision is often more balanced and accurate than relying on just one tree.\n\n"
-            "*Metrics*: accuracy = 79%, F1 = 79%, precision = 80%, recall = 79% \n\n"
+            "*BOW Metrics*: accuracy = 79%, F1 = 79%, precision = 80%, recall = 79% \n\n"
             "*TF-IDF Metrics*: accuracy = 86%, F1 = 86%, precision = 86%, recall = 86%")
 
 st.markdown("**BERT** \n\n"
