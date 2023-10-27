@@ -103,7 +103,7 @@ st.markdown("**Naive Bayes** \n\n"
 
 "However, what makes it 'naive' is that it assumes each condition (like playing at home, weather, recent performance) influences the outcome independently of the other conditions. It's like saying the advantage of playing at home doesn’t change even if the team has been on a losing streak or if it’s raining. "
 
-"In essence, Naive Bayes predicts outcomes based on historical data, while making the simple assumption that all influencing factors act independently."
+"In essence, Naive Bayes predicts outcomes based on historical data, while making the simple assumption that all influencing factors act independently. \n\n"
  "*BOW Metrics*: accuracy = 86%, F1 = 86%, precision = 86%, recall = 86% \n\n"
             "*TF-IDF Metrics*: accuracy = 85%, F1 = 85%, precision = 85%, recall = 85%")
 
