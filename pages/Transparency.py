@@ -68,14 +68,20 @@ sources from other regions, introducing a geopolitical bias.
 available for model training. \n\n
 ''')
 
-st.title("Vectorizer")
+st.title("Vectorizers")
 st.markdown( " **Bag of Words** \n\n "
              "Bag of Words turns text into a numerical representation by comparing the text at hand with a dictionary and counting the occurrence of each word of the dictionary in the given text, without considering the order or structure of the sentences.")
 st.markdown(" **TF-IDF** \n\n "
 "TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a method to represent the importance of words in a text. Imagine you have a library of books, and you want to determine the significance of a word in a specific book. If a word appears frequently in that book (high Term Frequency), it might be important. However, if the same word appears often in many other books in the library (making it common across documents), its uniqueness or significance diminishes. "
 
 "In essence, TF-IDF gives words a weight based on how frequently they appear in one text compared to their presence in a collection of texts. Words that are frequent in a specific text but rare in the entire collection get a higher weight, signaling their significance.")
-        
+
+st.title("Metrics")
+st.markdown("
+"*    Precision: Precision measures the proportion of true positive predictions (correctly identified false news) out of all positive predictions (true and false news predicted as positive). High precision means that when the model predicts an article as false news, it's likely to be accurate. This is crucial if you want to minimize false positives and avoid falsely flagging legitimate news as false."
+"* 		Recall: Recall (or sensitivity) measures the proportion of true positive predictions out of all actual positive instances (true news). High recall means that the model is effective at capturing most of the true false news. This is important if you want to minimize false negatives and ensure that you don't miss a significant portion of actual false news."
+"* 		F1 Score: The F1 score is the harmonic mean of precision and recall. It balances the trade-off between precision and recall. It's a good metric when you want to strike a balance between minimizing both false positives and false negatives. It's especially useful when the cost of false positives and false negatives is not heavily skewed in one direction."
+"* 		Accuracy: Accuracy measures the overall correctness of the model's predictions. While accuracy is an important metric, it might not be the most critical for false news detection, especially if the data is imbalanced (i.e., a small portion of the data is false news). A high accuracy can be achieved by simply classifying everything as true news in an imbalanced dataset, which is not a useful model.")
 
 st.title("Models")
 st.markdown("**Logistic Regression** \n\n"
