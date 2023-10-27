@@ -67,3 +67,13 @@ sources from other regions, introducing a geopolitical bias.
 - Data Cleaning: Removal of article text and inclusion of only specific information may affect the richness of features 
 available for model training. \n\n
 ''')
+
+st.title("Vectorizer")
+st.markdown( " **Bag of Words** \n\n
+             Bag of Words turns text into a numerical representation by comparing the text at hand with a dictionary and counting the occurrence of each word of the dictionary in the given text, without considering the order or structure of the sentences.
+")
+st.markdown(" **TF-IDF** \n\n
+TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a method to represent the importance of words in a text. Imagine you have a library of books, and you want to determine the significance of a word in a specific book. If a word appears frequently in that book (high Term Frequency), it might be important. However, if the same word appears often in many other books in the library (making it common across documents), its uniqueness or significance diminishes.
+
+In essence, TF-IDF gives words a weight based on how frequently they appear in one text compared to their presence in a collection of texts. Words that are frequent in a specific text but rare in the entire collection get a higher weight, signaling their significance.
+")
