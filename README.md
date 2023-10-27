@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The ATHENA_Project is a comprehensive solution aimed at addressing Fake News and Misinformation in the European Union context. Leveraging the power of machine learning, natural language processing, and an intuitive user interface, this project combines a binary fake news classifier and a Chatbot to assist users in understanding EU texts. The project's application is deployed via Streamlit and can be accessed [here](https://athenaproject-rhjxjf6gvs5r5fhpfr8p3g.streamlit.app/InfoPage?fbclid=IwAR1cWa8F7rSsQYSZ4CQl1vWAWa6u1DvTIGEN4qOgdGRozbDgry6AYXE3pcY).
+The ATHENA_Project is a comprehensive solution aimed at addressing Fake News and Misinformation in the European Union context. Leveraging the power of machine learning, natural language processing, and an intuitive user interface, this project combines a binary fake news classifier and a Chatbot to assist users in understanding EU texts. The project's application is deployed via Streamlit and can be accessed [here](https://athenaproject-rhjxjf6gvs5r5fhpfr8p3g.streamlit.app/Transparency?fbclid=IwAR3Cd7rqWBQJIRO0gVrkiAQFb-HrxsK6m4SPYGvuGqgnPwCfuVeszvwuz3c).
 
 ## Project Structure
 
