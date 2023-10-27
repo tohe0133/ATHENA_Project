@@ -31,7 +31,7 @@ hide_streamlit_style = """
                 </style>
                 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
+st.markdown("In the page you can find information about the dataset used to train and test the models, the possible biases that it introduces. You can also read a bit more in dept about the vectorizers, the metrics used to score the models, and the models themselves.")
 st.title("Used Dataset")
 st.markdown("In order to train our models we used a dataset containing a collection of 79,000 articles, which are divided into two categories: 'true' and "
             "'misinformation, fake news, or propaganda'.")
