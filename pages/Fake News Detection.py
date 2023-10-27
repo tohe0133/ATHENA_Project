@@ -181,10 +181,10 @@ SentHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment wit
            "evaluations by considering emotion intensity and interplay, making it valuable for quick assessments, " \
            "especially in mixed-sentiment texts. [Learn More](https://medium.com/@mystery0116/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b)"
 
-keywordHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment with positive, neutral, negative, and overall emotionality scores (-1 = most "
-              "negative and +1 = most positive). While the proportional scores offer a detailed breakdown, the emotionality score provides nuanced, sometimes "
-              "differing overall sentiment evaluations by considering emotion intensity and interplay, making it valuable for quick assessments, especially in "
-              "mixed-sentiment texts. Looking at the sentiment of a text can lead to a deeper understanding of the author's intentions and can be an indicator "
+keywordHelp = "The Sentiment Analyzer (VADER from NLTK) assesses text sentiment with positive, neutral, negative, and overall emotionality scores (-1 = most " \
+              "negative and +1 = most positive). While the proportional scores offer a detailed breakdown, the emotionality score provides nuanced, sometimes " \
+              "differing overall sentiment evaluations by considering emotion intensity and interplay, making it valuable for quick assessments, especially in " \
+              "mixed-sentiment texts. Looking at the sentiment of a text can lead to a deeper understanding of the author's intentions and can be an indicator " \
               "for fake news detection (e.g. an overly positive or negative text with high emotionality can be an indicator for persuasion techniques)."
 
 
