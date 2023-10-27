@@ -1,3 +1,4 @@
+import streamlit as st
 hide_streamlit_style = """
                 <style>
                 div[data-testid="stToolbar"] {
